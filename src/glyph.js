@@ -21,6 +21,7 @@ exports.Glyph = function(geometry, materialIn, idIn, glyphsetIn)  {
 	this.userData = [];
 	var _this = this;
 	mesh.userData = _this;
+	mesh.nameID = idIn;
 	
 	/**
 	 * Get the mesh of this glyph.
