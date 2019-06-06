@@ -1,6 +1,5 @@
 node_modules
 .project
 .settings
-build
 .tern-project
 
